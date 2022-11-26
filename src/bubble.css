@@ -1,0 +1,44 @@
+.bubble {
+  width: 100%;
+}
+
+.bubble-content {
+  max-width: 600px;
+  display: inline-block;
+  border-radius: 30px;
+  padding: 12px 20px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.bubble-content {
+  margin-right: 25%;
+  background-color: #eee;
+  position: relative;
+}
+
+.bubble:last-child .bubble-content:before,
+.bubble:nth-last-child(2) .bubble-content:before {
+  content: '';
+  position: absolute;
+  z-index: 0;
+  bottom: 0;
+  left: -12px;
+  height: 26px;
+  width: 30px;
+  background: #eee;
+  border-bottom-right-radius: 20px;
+}
+
+.bubble:last-child .bubble-content:after,
+.bubble:nth-last-child(2) .bubble-content:after {
+  content: '';
+  position: absolute;
+  z-index: 1;
+  bottom: 0;
+  left: -15px;
+  width: 15px;
+  height: 27px;
+  background: #00a000;
+  border-bottom-right-radius: 15px;
+}
