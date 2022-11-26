@@ -1,3 +1,7 @@
+:root {
+  --main-bg: #1B1D1E;
+}
+
 .bubble.input,
 .bubble.input .bubble-content {
   transition: opacity 0.4s ease-in-out;
@@ -15,7 +19,7 @@
 }
 
 .bubble.input > div {
-  background-color: #eee;
+  background-color: var(--main-bg);
   font-size: 32px;
   min-width: 30px;
 }

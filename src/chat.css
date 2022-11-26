@@ -1,3 +1,7 @@
+:root {
+  --text: #ddd;
+}
+
 .chat {
   padding-left: 86px;
   padding-bottom: 200px;
@@ -8,4 +12,6 @@
 
   font-size: 32px;
   position: relative;
+
+  color: var(--text);
 }
