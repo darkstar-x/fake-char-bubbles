@@ -19,3 +19,7 @@ $ npm install
 ```sh
 $ yarn install
 ```
+##### Run
+```sh
+$ npm run dev
+```
